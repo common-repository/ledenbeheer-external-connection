@@ -1,0 +1,59 @@
+.lbec-calendar {
+    min-height: 80vh;
+}
+
+.lbec-calendar-events {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.lbec-calendar thead th {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.lbec-calendar tbody td {
+    background: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    padding-top: 30px;
+    vertical-align: top;
+}
+
+.lbec-calendar .day-number {
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+
+.lbec-calendar-event {
+    margin: 0;
+    margin-bottom: 3px;
+}
+.lbec-calendar-event a {
+    background: #00a0d2;
+    display: block;
+    color: #fff;
+    height: 35px;
+    overflow: hidden;
+    padding: 3px 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.lbec-calendar-event .open {
+    height: auto;
+}
+
+.lbec-calendar-event-time {
+    font-size: small;
+    margin-right: 1rem;
+}
+
+.lbec-table-responsive {
+    overflow-x: scroll;
+}
